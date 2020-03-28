@@ -5,7 +5,7 @@ This is a simple todo list web apllication build with reactJs. Mainly User can A
 
 
 ### Commands used to install Font awesome:
-# `$ npm i --save @fortawesome/fontawesome-svg-core`
-### `$ npm i --save @fortawesome/free-solid-svg-icons`
-### `$ npm i --save @fortawesome/react-fontawesome`
+#### `$ npm i --save @fortawesome/fontawesome-svg-core`
+#### `$ npm i --save @fortawesome/free-solid-svg-icons`
+#### `$ npm i --save @fortawesome/react-fontawesome`
 
