@@ -1,0 +1,155 @@
+
+  h2{
+    font-family: monospace;
+    font-size: 250%;
+  }
+  
+  .App{
+    background-color:aliceblue;
+    opacity:0.8 ;
+    width: 70%;
+    margin: 40px auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-width: 1;
+  }
+
+  .AppList{
+    background-color:aliceblue;
+    opacity:0.8 ;    
+    min-height: 150px;
+    width: 70%;
+    margin: 40px auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-width: 1;
+  }
+  
+  #form-todo input{
+    background-color:rgba(73, 57, 70, 0.315);
+    border: 1;
+    width: 60%;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    color: black;
+  }
+  
+  #form-todo input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  #form-todo input:focus,#form-todo button:focus{
+    outline: none;
+  }
+  
+  #form-todo-btn{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1;
+    background-color: rgba(210, 30, 180, 0.74);
+    cursor: pointer;
+    font-weight: bolder;
+    color: azure;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+  }
+
+  #form-todo-btn-true{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1;
+    background-color: green;
+    cursor: pointer;
+    font-weight: bolder;
+    color: azure;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+  }
+
+  #form-todo-btn-true:hover{
+    background-color: rgb(45, 185, 75);
+  }
+
+
+  
+  #form-todo-btn:hover{
+    background-color: blueviolet;
+  }
+
+  #clear-btn{
+    height: 50px;
+    border-radius: 10px;
+    border: 1;
+    background-color: rgba(210, 30, 84, 0.74);
+    cursor: pointer;
+    font-weight: bolder;
+    color: azure;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+  }
+  
+  #clear-btn:hover{
+    background-color: rgb(226, 43, 43);
+  }
+
+  .list{
+    color: #fff;
+    width: 70%;
+    margin: 20px auto;
+    height: 50px;
+    background-color: #bf07ac;
+    border-radius: 5px;
+    border-width: 1;
+  }
+  .list p{
+    padding: 10px;
+    position: relative;
+    transition: ease-in-out;
+  }
+  .list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;  
+    font-size: 18px;
+    align-content: center;
+    text-align: center;
+    width: max-content;
+  }
+  .list p input:focus{
+    outline: none;
+  }
+  .list p span{
+    position: absolute;
+    right: 10px;
+  }
+  .faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .itemsAnim-enter{
+    opacity: 0.01;
+  }
+  .itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+  }
+  .itemsAnim-leave{
+    opacity: 1;
+  }
+  .itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+  }
