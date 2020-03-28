@@ -9,3 +9,6 @@ This is a simple todo list web apllication build with reactJs. Mainly User can A
 #### `$ npm i --save @fortawesome/free-solid-svg-icons`
 #### `$ npm i --save @fortawesome/react-fontawesome`
 
+### The published To-do App:
+
+
