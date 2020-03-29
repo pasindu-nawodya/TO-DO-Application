@@ -10,7 +10,8 @@ class App extends Component{
     items:[],
     id:uuid(),
     item:'',
-    editItem:false
+    editItem:false,    
+    completeItem:false
   };
 
   handleChange = (e)=>{
@@ -69,7 +70,7 @@ class App extends Component{
             
       <div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
       <TodoInput item={this.state.item} handleChange={this.handleChange} handleSubmit={this.handleSubmit} editItem={this.state.editItem}/>
-      <TodoList items={this.state.items} clearList={this.clearList} handleDelete={this.handleDelete} handleEdit={this.handleEdit}/>
+      <TodoList items={this.state.items} clearList={this.clearList} handleDelete={this.handleDelete} handleEdit={this.handleEdit} /> 
       </div>
 
     );

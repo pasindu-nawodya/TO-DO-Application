@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TodoItem from './TodoItem';
 import './Todocss.css';
+import FlipMove from 'react-flip-move';
 
 export default class TodoList extends Component {
     render() {
@@ -17,12 +18,15 @@ export default class TodoList extends Component {
                     {
                         items.map(item => {
                             return(
+
+                                <FlipMove>{
                                 <TodoItem 
                                     key={item.id} 
                                     title={item.title} 
                                     handleDelete={()=> handleDelete(item.id)}
                                     handleEdit={()=> handleEdit(item.id)}
                                 />
+                                }</FlipMove>
                             )
                         })
                     }                   

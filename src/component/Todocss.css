@@ -123,9 +123,8 @@
     font-weight: bold;
     font-family: monospace;  
     font-size: 18px;
-    align-content: center;
-    text-align: center;
     width: max-content;
+    text-align: center;
   }
   .list p input:focus{
     outline: none;
@@ -153,3 +152,49 @@
     opacity: 0.01;
     transition: opacity 300ms ease-in
   }
+
+
+.checkbox {
+  position: relative;
+  margin: 20px 0;
+}
+.checkbox { display: block; }
+
+.checkbox input {
+  position: absolute;
+  margin: 5px;
+  padding: 0;
+  /* for mobile accessibility (iOS Label Bug) */
+  visibility: hidden;
+}
+
+.checkbox .label-visible {
+  margin-left: 2em;
+  margin-bottom: 0;
+}
+
+
+.fake-checkbox{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid slategray;
+  background-color: white;
+}
+
+.fake-checkbox:after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  background: navy;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+input[type="checkbox"]:checked + span .fake-checkbox:after { display: block; }
