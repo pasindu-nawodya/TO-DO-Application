@@ -52,7 +52,7 @@
     width: 80px;
     border-radius: 10px;
     border: 1;
-    background-color: rgba(210, 30, 180, 0.74);
+    background-color: rgba(210, 30, 84, 0.74);
     cursor: pointer;
     font-weight: bolder;
     color: azure;
@@ -123,8 +123,7 @@
     font-weight: bold;
     font-family: monospace;  
     font-size: 18px;
-    width: max-content;
-    text-align: center;
+    text-align: left;
   }
   .list p input:focus{
     outline: none;

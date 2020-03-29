@@ -16,7 +16,7 @@ export default class TodoItem extends Component {
                 <p>                                 
                   
                    
-                   <input type="text" value={title} disabled/>
+                   <input type="text" value={"- "+title} />
                                           
                     <span>                
                         <FontAwesomeIcon className="faicons" icon={faPen} onClick={handleEdit}/>                                               
