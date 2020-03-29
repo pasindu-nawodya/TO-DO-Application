@@ -10,5 +10,5 @@ This is a simple todo list web apllication build with reactJs. Mainly User can A
 #### `$ npm i --save @fortawesome/react-fontawesome`
 
 ### The published To-do App:
-
+https://pasindu-todoapplication.netlify.com/
 
